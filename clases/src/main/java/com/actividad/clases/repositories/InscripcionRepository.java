@@ -1,5 +1,8 @@
 package com.actividad.clases.repositories;
 
-public class InscripcionRepository {
+import com.actividad.clases.models.Inscripcion;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface InscripcionRepository extends JpaRepository<Inscripcion, Long>{
     
 }

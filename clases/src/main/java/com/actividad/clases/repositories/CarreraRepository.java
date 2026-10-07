@@ -1,5 +1,8 @@
-package com.actividad.clases.repositories;
+package com.actividad.clase.repositories;
+import com.actividad.clase.models.Carrera;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public class carreraRepository {
+public interface CarreraRepository extends JpaRepository<Carrera, Long>{
+
     
 }
